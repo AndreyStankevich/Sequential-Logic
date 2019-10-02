@@ -1,0 +1,12 @@
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "PRE" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "CLR" CLOCK_DEDICATED_ROUTE = FALSE;
+
+########LED Pin define#####################
+NET Q                        		    	LOC = P4 | IOSTANDARD = "LVCMOS33";        ## LED1
+
+########KEY Pin define#####################
+NET D	                        		LOC = C3 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET CLK 	                      	        	LOC = D3 | IOSTANDARD = "LVCMOS33";       ## KEY2
+NET PRE                                  		LOC = E4 | IOSTANDARD = "LVCMOS33";       ## KEY3
+NET CLR                                  		LOC = E3 | IOSTANDARD = "LVCMOS33";       ## KEY4
